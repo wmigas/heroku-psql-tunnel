@@ -1,0 +1,28 @@
+{
+  "name": "heroku-psql-tunnel",
+  "description": "open ssh tunnel for psql connection to private space",
+  "version": "1.0.0",
+  "author": "w.migas@polsource.com",
+  "bugs": "https://github.com/wmigas/heroku-psql-tunnel/issues",
+  "dependencies": {
+    "co": "4.6.0",
+    "heroku-cli-util": "6.0.15",
+    "@heroku-cli/plugin-pg-v5": "7.19.4"
+  },
+  "devDependencies": {},
+  "files": [
+    "/index.js",
+    "/commands"
+  ],
+  "homepage": "https://github.com/wmigas/heroku-psql-tunnel",
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmigas/heroku-psql-tunnel.git"
+  },
+  "scripts": {}
+}
